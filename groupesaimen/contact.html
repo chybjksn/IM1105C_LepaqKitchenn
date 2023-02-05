@@ -1,0 +1,316 @@
+<html>
+    <head>
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <style>
+        main{
+            width: 100vw;
+            margin: 0 auto;
+            padding: 30px 20px;
+            min-height: calc(200vh - 211px - 58px);
+        }
+        #section-wrapper{
+            width: 90%;
+            padding: 10px;
+        }
+        .box-wrapper{
+            position: relative;
+            display: table;
+            width: 1100px;
+            margin: auto;
+            margin-top: 104px;
+            border-radius: 30px;
+            left: 5%;
+        }
+        .info-wrap{
+            width: 35%;
+            height: 551px;
+            padding: 40px;
+            float: left;
+            display: block;
+            border-radius: 30px 0px 30px 0px;
+            background: linear-gradient(144deg, rgb(230, 138, 17)0%, rgb(212, 195, 44)100%);
+            color: white;
+        }
+        .info-title{
+            text-align: center;
+            font-size: 35px;
+            letter-spacing: 0.8px;
+        }
+        .info-subtitle{
+            font-size: 20px;
+            font-weight: 300;
+            margin-top: 20px;
+            letter-spacing: 0.8px;
+            line-height: 26px;
+            text-align: center;
+        }
+        .info-details{
+            list-style: none;
+            margin: 60px 0px;
+        }
+        .info-details li{
+            margin-top: 25px;
+            font-size: 18px;
+            color:white;
+        }
+        .info-details li i{
+            background: rgb(224, 13, 101);
+            padding: 10px;
+            border-radius: 80%;
+            margin-right: 5px;
+        }
+        .info-details li a{
+            color:white;
+            text-decoration: none;
+        }
+        .info-details li a:hover{
+            color: rgba(172, 43, 247, 0.774);
+        }
+        .social-icons{
+            list-style: none;
+            text-align: center;
+            margin: 20px 0px;
+        }
+        .social-icons li{
+            display: inline-block;
+        }
+        .social-icons li i{
+            background:rgb(224, 13, 101);
+            color:white;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 22%;
+            margin: 0px 5px;
+            cursor: pointer;
+        }
+        .social-icons li i:hover{
+            background: rgba(240, 216, 83, 0.555);
+            color: black;
+        }
+        .form-wrap{
+            width: 65%;
+            float: right;
+            padding: 40px 24px 35px;
+            border-radius: 0px 30px 30px 0px;
+            background: #ecf0f3;
+        }
+        .form-title{
+            text-align: left;
+            margin-left: 23px;
+            font-size: 35px;
+            letter-spacing: 0.5px;
+        }
+        .form-fields{
+            display: table;
+            width: 100%;
+            padding: 15px 5px 5px 5px;
+        }
+        .form-fields input,
+        .form-fields textarea{
+            border: none;
+            outline: none;
+            background: none;
+            font-size: 18px;
+            color: black;
+            padding: 20px 10px 20px 5px;
+            width: 100%;
+        }
+        .form-fields textarea{
+            height: 150px;
+            resize: none;
+        }
+        .form-group{
+            width: 46%;
+            float: left;
+            padding: 0px 30px;
+            margin: 14px 12px;
+            border-radius: 25px;
+            box-shadow: inset 8px 8px 8px #cbc3d1, inset -8px -8px 8px #ffffff;
+        }
+        .form-fields .form-group:last-child{
+            width: 96%;
+        }
+        .submit-button{
+            width: 96%;
+            height: 60px;
+            margin: 0px 12px;
+            border-radius: 30px;
+            font-size: 20px;
+            font-weight: 700;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            text-align: center;
+            background: rgb(224, 13, 196);
+            box-shadow: 3px 3px 8px black, -3px -3px 8px #ffffff;
+            transition: .5s;
+        }
+        .submit-button:hover{
+            background: #b4882a;
+        }
+        /* Responsive css */
+        @media only screen and (max-width: 767px){
+            .box-wrapper{
+                width: 100%;
+            }
+            .info-wrap,
+            .form-wrap{
+                width: 100%;
+                height: inherit;
+                float: none;
+            }
+            .info-wrap{
+                border-radius: 30px 30px 0px 0px;
+            }
+            .form-wrap{
+                border-radius: 0px 0px 30px 30px;
+            }
+            .form-group{
+                width: 100%;
+                float: none;
+                margin: 25px 0px;
+            }
+            .formm-fields .form-group:last-child,
+            .submit-button{
+                width: 100%;
+            }
+            .submit-button{
+                margin:10px 0px;
+            }
+        }
+    </style>
+    <style>
+        body {
+          background-image: url('images/bg4.jpg');
+          background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+          
+        }
+        </style>
+        <section class="header">
+        <header>
+            <input type="checkbox" name="" id="chk1">
+            <div class="logo"><h1>LepaQ Kitchen</h1></div>
+            <div class="search-box">
+                <form action="">
+                    <input type="text" name="search" id="srch">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+        </header>
+        </section>
+        <section class="main">
+            <main>
+                <section id="section-wrapper">
+                    <div class="box-wrapper">
+                        <div class="info-wrap">
+                                <h2 class="info-title">Contact Information</h2>
+                                <h3 class="info-subtitle">Do contact us or fill up the form if you have any question to ask</h3>
+                                <ul class="info-details">
+                                    <li>
+                                        <i class="fa-solid fa-phone"></i>
+                                            <span>Phone:</span><a href="tel:6063781839">06-3781839</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                            <span>Email:</span><a href="mailto:lepaqkitchen@gmail.com">lepaqkitchen@gmail.com</a>
+                                    </li>
+                                </ul>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="https://www.facebook.com/shaniznajwa.hairulnizam">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://instagram.com/shaniznajwa?igshid=ZDdkNTZiNTM=">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.tiktok.com/@shnznjwa?_t=8ZP8MvFUmn4&_r=1">
+                                            <i class="fa-brands fa-tiktok"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="form-wrap">
+                                <form action="#" method="POST">
+                                <h2 class="form-title">Send a message</h2>
+                                <div class="form-fields">
+                                    <div class="form-group">
+                                        <input type="text" class="fname" placeholder="First Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="1name" placeholder="Last Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" class="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="call" placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" id="" placeholder="Write your message"></textarea>
+                                    </div>
+                                </div>
+                                <input type="submit" value="Send message" class="submit-button">
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </section>
+        <section class="footer">
+        <footer>
+            <div class="footerOperation">
+                <p><b>Opening hours</b></p>
+                <br>
+                Tuesday - Sunday: 9.30a.m. - 11.00p.m.
+                <p>Monday: Closed</p>
+            </br>
+            </div>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href="tel:6036781839"><i class="fa-solid fa-phone"></i></a>
+                    <a href="mailto:lepaqkitchen@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/shaniznajwa.hairulnizam?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/shaniznajwa?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@shnznjwa?_t=8ZP8MvFUmn4&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="reservation.html">RESERVATION</a></li>
+                        <li><a href="location.html">LOCATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023 Lepaq Kitchen | All rights reserved</p>
+        </div>
+        </footer>
+       </section>
+    </body>
+</html>

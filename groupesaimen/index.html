@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <title>HOME</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <style type="text/css">
+        main{
+            width: 100vw;
+            margin: 0 auto;
+            padding: 30px 20px;
+            min-height: calc(160vh - 211px - 58px);
+        }
+        body{
+            background-size: cover;
+        }
+        audio{
+            width:120px;
+            position: absolute;
+            top: 18%;
+        }
+        .center{
+            position:absolute;
+            top: 40%;
+            left: 16%;
+            transform:translate (-50%,-50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+        .center h2{
+            color: rgb(241, 243, 237);
+            font-size: 90px;
+            font-weight: bold;
+            width:900px;
+            text-align: center;
+        }
+        .center h3{
+            color:rgb(241, 243, 237);
+            font-size: 90px;
+            font-weight: bold;
+            width:885px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .center .button{
+            margin: 35px 280px;
+        }
+        .button button{
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffb3b3;
+            background:rgb(209, 140, 50);
+            border: 1px solid olive;
+            outline: none;
+            cursor: pointer;
+            border-radius: 25px;
+            transition: .5s;
+        }
+        .button.btn{
+            margin-left: 25px;
+        }
+        .button button:hover{
+            background:darkgoldenrod;
+        }
+    </style>
+    <body background="images/bg3.jpg">
+        <section class="header">
+        <header>
+            <input type="checkbox" name="" id="chk1">
+            <div class="logo"><h1>LepaQ Kitchen</h1></div>
+            <div class="search-box">
+                <form action="">
+                    <input type="text" name="search" id="srch">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+                <li><a href="location.html">LOCATION</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+        </header>
+        </section>
+        <section class="main">
+            <main>
+                <audio controls>
+                    <source src="audio/jazz.mp3" type="audio/ogg">
+                    <source src="audio/jazz.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio> 
+                <div class="center">
+                    <h2>A taste that</h2>
+                    <h3>you'll remind</h3>
+                    <div class="button">
+                        <button><a href="menu.html">Menu</a></button>
+                        <button class="btn"><a href="reservation.html">Reservation</a></button>
+                    </div>
+                </div>
+            </main>
+        </section>
+        <section class="footer">
+        <footer>
+            <div class="footerOperation">
+                <p><b>Opening hours</b></p>
+                <br>
+                Tuesday - Sunday: 9.30a.m. - 11.00p.m.
+                <p>Monday: Closed</p>
+            </br>
+            </div>
+            <div class="footerContainer">
+                <div class="socialIcons">
+                    <a href="tel:6063781839"><i class="fa-solid fa-phone"></i></a>
+                    <a href="mailto:lepaqkitchen@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/shaniznajwa.hairulnizam?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/shaniznajwa?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@shnznjwa?_t=8ZP8MvFUmn4&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="footerNav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="menu.html">MENU</a></li>
+                        <li><a href="reservation.html">RESERVATION</a></li>
+                        <li><a href="location.html">LOCATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023 Lepaq Kitchen | All rights reserved</p>
+        </div>
+        </footer>
+       </section>
+    </body>
+</html>
